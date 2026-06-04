@@ -1,0 +1,187 @@
+    .hero{
+        background-image: url('../img/banner.jpg');
+        background-size: cover;
+        background-position: center;
+
+        min-height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-overlay{
+        text-align: center;
+
+        color: white;
+
+        padding: 20px;
+    }
+
+
+    .tarjeta-estudiante{
+        max-width: 450px;
+
+        margin: auto;
+
+        background: rgba(0,0,0,0.55);
+
+        backdrop-filter: blur(5px);
+
+        border: 1px solid rgba(255,255,255,0.15);
+
+        border-radius: 15px;
+
+        color: white;
+    }
+
+    .tarjeta-estudiante h4,
+    .tarjeta-estudiante p{
+        color: white;
+    }
+
+    body{
+        background: linear-gradient(
+            to bottom,
+            #04152d 0%,
+            #0a2342 35%,
+            #102d56 70%,
+            #163d73 100%
+        );
+
+        min-height: 100vh;
+        padding-top: 70px;
+    }
+
+    .introduccion{
+        background: rgba(255,255,255,0.90);
+
+        border-radius: 20px;
+
+        padding: 40px;
+
+        box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    }
+
+    .introduccion h2{
+        color: #0d3b66;
+    }
+
+    .boton-explorar{
+        padding: 12px 30px;
+
+        border-radius: 30px;
+
+        font-weight: bold;
+
+        transition: 0.3s;
+    }
+
+    .boton-explorar:hover{
+        transform: scale(1.05);
+    }
+
+    .titulo-pagina{
+        color: white;
+        font-size: 3rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+    }
+
+    .card{
+        margin: auto;
+        border: none;
+        border-radius: 15px;
+        transition: 0.3s;
+    }
+
+    .card:hover{
+        transform: translateY(-5px);
+    }
+
+    .footer{
+        background-color: rgba(0,0,0,0.35);
+
+        color: white;
+
+        text-align: center;
+
+        padding: 25px 10px;
+
+        margin-top: 50px;
+
+        border-top: 1px solid rgba(255,255,255,0.15);
+    }
+
+    .footer p{
+        margin: 5px 0;
+    }
+
+    .footer-titulo{
+        font-size: 1.2rem;
+
+        font-weight: bold;
+    }
+
+    .card img{
+    height: 180px;
+
+    object-fit: cover;
+
+    width: 100%;
+
+    border-radius: 12px;
+    }
+
+    .navbar-personalizada{
+    background: rgba(3, 12, 24, 0.92);
+
+    backdrop-filter: blur(10px);
+
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+
+    box-shadow: 0 2px 15px rgba(0,0,0,0.3);
+    }
+
+    .navbar-brand{
+    font-weight: 700;
+
+    font-size: 1.5rem;
+
+    letter-spacing: 1px;
+
+    color: white !important;
+    }
+
+    .navbar-nav .nav-link{
+        color: rgba(255,255,255,0.85) !important;
+
+        font-weight: 500;
+
+        transition: 0.3s;
+    }
+
+    .navbar-nav .nav-link:hover{
+    color: white !important;
+
+    transform: translateY(-2px);
+    }
+
+    .navbar .nav-link.active{
+    color: white !important;
+
+    font-weight: bold;
+
+    border-bottom: 3px solid #4da3ff;
+
+    padding-bottom: 5px;
+    }
+
+
+
+    .video-container iframe{
+        width: 100%;
+        height: 450px;
+        border: none;
+        border-radius: 12px;
+    }
