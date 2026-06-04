@@ -12,26 +12,18 @@
 
     .hero-overlay{
         text-align: center;
-
         color: white;
-
         padding: 20px;
     }
 
 
     .tarjeta-estudiante{
         max-width: 450px;
-
         margin: auto;
-
         background: rgba(0,0,0,0.55);
-
         backdrop-filter: blur(5px);
-
         border: 1px solid rgba(255,255,255,0.15);
-
         border-radius: 15px;
-
         color: white;
     }
 
@@ -55,11 +47,8 @@
 
     .introduccion{
         background: rgba(255,255,255,0.90);
-
         border-radius: 20px;
-
         padding: 40px;
-
         box-shadow: 0 0 20px rgba(0,0,0,0.15);
     }
 
@@ -69,11 +58,8 @@
 
     .boton-explorar{
         padding: 12px 30px;
-
         border-radius: 30px;
-
         font-weight: bold;
-
         transition: 0.3s;
     }
 
@@ -101,15 +87,10 @@
 
     .footer{
         background-color: rgba(0,0,0,0.35);
-
         color: white;
-
         text-align: center;
-
         padding: 25px 10px;
-
         margin-top: 50px;
-
         border-top: 1px solid rgba(255,255,255,0.15);
     }
 
@@ -119,35 +100,26 @@
 
     .footer-titulo{
         font-size: 1.2rem;
-
         font-weight: bold;
     }
 
-    .card img{
+    .card img:not(.contador-img){
     height: 180px;
-
     object-fit: cover;
-
     width: 100%;
-
     border-radius: 12px;
     }
 
     .navbar-personalizada{
     background: rgba(3, 12, 24, 0.92);
-
     backdrop-filter: blur(10px);
-
     border-bottom: 1px solid rgba(255,255,255,0.1);
-
     box-shadow: 0 2px 15px rgba(0,0,0,0.3);
     }
 
     .navbar-brand{
     font-weight: 700;
-
     font-size: 1.5rem;
-
     letter-spacing: 1px;
 
     color: white !important;
@@ -155,29 +127,21 @@
 
     .navbar-nav .nav-link{
         color: rgba(255,255,255,0.85) !important;
-
         font-weight: 500;
-
         transition: 0.3s;
     }
 
     .navbar-nav .nav-link:hover{
     color: white !important;
-
     transform: translateY(-2px);
     }
 
     .navbar .nav-link.active{
     color: white !important;
-
     font-weight: bold;
-
     border-bottom: 3px solid #4da3ff;
-
     padding-bottom: 5px;
     }
-
-
 
     .video-container iframe{
         width: 100%;
@@ -185,3 +149,12 @@
         border: none;
         border-radius: 12px;
     }
+
+    .contador-img{
+        width: auto !important;
+        height: auto !important;
+        max-width: 100%;
+        border-radius: 0 !important;
+    }
+
+    /* PRUEBA GITHUB */
